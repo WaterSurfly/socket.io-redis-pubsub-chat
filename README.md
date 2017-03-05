@@ -1,7 +1,7 @@
 # socket.io-redis-pubsub-chat
 express, socket.io, redis pub/sub, chatting
 
-demo : http://wwww.watersurfly.com
+demo : http://www.watersurfly.com
 
 
 npm install
