@@ -1,5 +1,5 @@
 # socket.io-redis-pubsub-chat
-express, socket.io, redis pub/sub, chatting
+express, socket.io, redis pub/sub, channel chatting
 
 demo : http://www.watersurfly.com 
        - click Chat button
