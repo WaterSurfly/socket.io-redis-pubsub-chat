@@ -15,7 +15,7 @@ socket.on('reload', function () {
 });
 
 socket.on(channel, function (msg) {
-	
+	console.log(channel);
 	var message = JSON.parse(msg);
 	var action = message.action;
 	
@@ -84,7 +84,7 @@ $(function(){
 				var message = $('#data').val();
 				$('#data').val('');
 				if(message){
-					var send_json = JSON.stringify({'action' : 'message', 'user' : uid, 'nick' : uname, 'msg' : message});	
+					var send_json = JSON.stringify({'action' : 'message', 'uid' : uid, 'uname' : uname, 'msg' : message});	
 					socket.emit('chat', send_json);
 					$('#data').focus();
 				}
